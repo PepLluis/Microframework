@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FeatureName>STM32Test</FeatureName>
+    <Guid>{4196383d-8232-4101-889d-86f597f34863}</Guid>
+    <Description>&lt;Add Feature Description Here&gt;</Description>
+    <Groups />
+  </PropertyGroup>
+  <ItemGroup>
+    <DriverLibs Include="STM32Test.$(LIB_EXT)" />
+    <InteropFeature Include="STM32Test" />
+    <MMP_DAT_CreateDatabase Include="$(BUILD_TREE_CLIENT)\pe\$(ENDIANNESS)\STM32Test.pe" />
+    <RequiredProjects Include="C:\Users\PepLluis\Documents\Visual Studio 2012\Projects\STM32Test\STM32Test\Stubs\dotnetmf.proj" />
+  </ItemGroup>
+</Project>
